@@ -8,15 +8,85 @@ a {
 
 body {
   color: rgba(46, 47, 66, 1);
-  font-family: "Roboto", "Roboto Condensed", "Roboto Flex", sans-serif;
+  font-family: "Roboto", "Roboto Flex", sans-serif;
+
 }
 
-.header-logo {
-  size: 18;
-}
-
-.header-menu-link {
+.header-nav-link {
+  color: rgba(46, 47, 66, 1);
   size: 16;
   line-height: 1.5;
   font-weight: 500;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
+  color: rgba(64, 75, 191, 1);
+}
+
+.header-nav__logo-iris-link {
+  font-family: "Raleway", sans-serif;
+  color: rgba(77, 90, 229, 1);
+  font-weight: 700;
+  size: 18;
+  line-height: 1,16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-nav__logo-navy-link {
+  color: rgba(46, 47, 66, 1);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  size: 18;
+  line-height: 1,16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-contacts-link {
+  color: rgba(67, 68, 85, 1);
+  font-weight: 400;
+  line-height: 1,5;
+  size: 16;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+color: rgba(64, 75, 191, 1);
+}
+header {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hero {
+  background-color: rgba(46, 47, 66, 1);
+}
+
+.hero-title {
+  font-weight: 700;
+  size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.02em;
+}
+
+.company-title {
+  font-weight: 500;
+  size: 20px;
+  line-height: 1.2;
+  color: rgba(46, 47, 66, 1);
+}
+
+.company-text {
+  font-weight: 400;
+  size: 16px;
+  line-height: 1.5;
+  color: rgba(67, 68, 85, 1);
+}
+
+.team {
+  background-color:rgba(244, 244, 253, 1);
 }
