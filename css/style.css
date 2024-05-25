@@ -7,8 +7,9 @@ a {
 }
 
 body {
-  color: rgba(46, 47, 66, 1);
+  color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
 
 }
 
@@ -74,15 +75,6 @@ header {
 }
 
 .hero-button{
-  border-radius: 4px;
-  top: 428px;
-  left: 636px;
-padding: 16px, 32px, 16px, 32px;
-width: 169px;
-height: 56px;
-radius: 4px;
-gap: 10px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4D5AE5;
 }
 
@@ -96,8 +88,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-Width: 105px;
-Height: 24px;
 }
 
 .company-title {
@@ -129,11 +119,6 @@ color: rgba(67, 68, 85, 1);
 .team-list {
 }
 .team-item {
-  border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #FFFFFF;
 }
 .team-img {
