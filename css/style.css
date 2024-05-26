@@ -14,8 +14,8 @@ body {
 }
 
 .header-nav-link {
-  color: rgba(46, 47, 66, 1);
-  size: 16;
+  color: #434455;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -23,56 +23,56 @@ body {
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-nav-link:active {
-  color: rgba(64, 75, 191, 1);
+  color: #404BBF;
 }
 
 .header-nav__logo-iris-link {
   font-family: "Raleway", sans-serif;
-  color: rgba(77, 90, 229, 1);
+  color: #4D5AE5;
   font-weight: 700;
-  size: 18px;
-  line-height: 1,17;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-nav__logo-navy-link {
-  color: rgba(46, 47, 66, 1);
+  color: #2E2F42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  size: 18px;
-  line-height: 1,17;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-contacts-link {
-  color: rgba(67, 68, 85, 1);
+  color: #434455;
   font-weight: 400;
   line-height: 1.5;
-  size: 16;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: 0.02em;
 }
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-color: rgba(64, 75, 191, 1);
+color: #404BBF;
 }
 header {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #FFFFFF;
 }
 
 .hero {
-  background-color: rgba(46, 47, 66, 1);
+  background-color: #2E2F42;
 }
 
 .hero-title {
   font-weight: 700;
-  size: 56px;
+  font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
+  color: #FFFFFF;
   letter-spacing: 0.02em;
 }
 
@@ -94,20 +94,20 @@ color: #FFFFFF;
 
 .company-title {
   font-weight: 500;
-  size: 20px;
+  font-size: 20px;
   line-height: 1.2;
-  color: rgba(46, 47, 66, 1);
+  color: #2E2F42;
 }
 
 .company-text {
   font-weight: 400;
-  size: 16px;
+  font-size: 16px;
   line-height: 1.5;
-  color: rgba(67, 68, 85, 1);
+  color: #434455;
 }
 
 .team {
-  background-color:rgba(244, 244, 253, 1);
+  background-color:#F4F4FD;
 }
 
 .team-title {
@@ -116,7 +116,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-color: rgba(67, 68, 85, 1);
+color: #2E2F42;
 }
 .team-list {
 }
@@ -131,7 +131,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-color: rgba(67, 68, 85, 1);
+color: #2E2F42;
 }
 .team-job {
   font-weight: 400;
@@ -180,10 +180,10 @@ color: #434455;
 }
 .footer-logo-iris-link {
   font-family: "Raleway", sans-serif;
-  color: rgba(77, 90, 229, 1);
+  color: #4D5AE5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -192,7 +192,7 @@ color: #434455;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -202,4 +202,18 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
