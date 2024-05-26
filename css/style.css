@@ -14,10 +14,11 @@ body {
 }
 
 .header-nav-link {
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .header-nav-link:hover,
@@ -53,6 +54,7 @@ body {
   font-size: 16px;
   font-style: normal;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .header-contacts-link:hover,
@@ -78,18 +80,21 @@ header {
 
 .hero-button{
 background: #4D5AE5;
-}
-
-.hero-button:hover {
-  color: #404BBF;
-}
-
-.button-text{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404BBF;
+}
+
+.button-text{
+
 }
 
 .company-title {
@@ -202,18 +207,4 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
